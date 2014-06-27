@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Menu Test </title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>		
+		
+		<script type="text/javascript" src="./js/menu_data.js"></script>
+		<script type="text/javascript" src="./js/menu.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#nav').menuGenerator('menu');
+			});
+		</script>
+	</head>
+
+	<body>
+		<nav data-role="menu" id="nav"></nav>
+	</body>
+	
+</html>	
